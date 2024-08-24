@@ -1,0 +1,17 @@
+using System;
+
+class IfExample
+{
+    static void Main(string[] args)
+    {
+        int x = 5;
+        if (x > 10)
+        {
+            Console.WriteLine("x es mayor que 10");
+        }
+        else
+        {
+            Console.WriteLine("x es menor o igual que 10");
+        }
+    }
+}
